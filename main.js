@@ -4,6 +4,7 @@ person.textContent = "Cesar Wen";
 person.style.color = "#123456"
 person.classList.add("uhuul")
 console.log(nome);
+alert("Horay alert")
 
 var headers = document.querySelectorAll("h2");
 console.log(headers);
