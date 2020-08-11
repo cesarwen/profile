@@ -15,3 +15,7 @@ for(var i = 0; i < headers.length; i++){
         console.log("Hello!")
     }
 }
+
+d3.csv("/resourses/test.csv").then(function(data) {
+    console.log(data[0]);
+  });
