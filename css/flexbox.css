@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_profile{
+    display: flex;
+    text-align: center;
+}
+
+.profile-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-description h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.post {
+    display: flex;
+}
+
+.content {
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }

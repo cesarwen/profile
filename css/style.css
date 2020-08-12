@@ -1,0 +1,135 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    color: #39454d;
+    background-color: #b2bac2;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    h3 {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    p{
+        font-size: 16px
+    }
+    
+    
+    header {
+        background: #BBBBBB;
+        padding: 20px 0;
+    }
+    
+    main{
+        margin: 10px 5%;
+    }
+
+    nav a {
+        margin: 5px 10px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 22;
+        text-decoration: none;
+    }
+    
+    
+    #profile-picture {
+        width: 40%;
+        border-radius:50%;
+        margin: 0 auto;
+    }
+    
+ 
+    .quote p:first-child {
+        background-color: #d2d5d9;
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-left: 7px solid #091d2b;
+    }
+    
+    .quote p{
+        padding: 5px 5px;
+        width: 95%;
+        line-height: 1.5;
+        
+    }
+    
+    .lower_blocks{
+        padding: 10px 10px;
+        background-color: #91969e;
+        color: #3e4549;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    
+    .post{
+        border: 2px solid;
+        margin: 10px auto;
+        padding: 5px;
+    }
+    
+    .image{
+        display : inline-block;
+        width: 22%;
+        vertical-align: top;
+        text-align: center;
+        justify-content: ;
+    }
+    
+    .thumbnail {
+        width:  175px; /* width of container */
+        height: 175px; /* height of container */
+        overflow: hidden;
+        margin: 5px 5px;
+    }
+    
+    
+    
+    .content{
+        width: 78%;
+        vertical-align: top;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 1.5;
+        padding-right: 5px;
+    }
+    
+    .content p{
+        font-size: 14px;
+    }
+    
+    #img {
+        width: 175px; /* width of container */
+        height: 175px; /* height of container */
+        object-fit: cover;
+        object-position: 50% 50%; 
+    }
+    
+    .content p, h3 {
+        text-align: left;
+    }
+    
+    .endnote p{
+        margin-top: 15px;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: right;
+        text-transform: uppercase;
+    }

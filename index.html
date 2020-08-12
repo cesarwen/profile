@@ -1,203 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-        <meta charset="UTF-8">
-        <meta ame = "viewport" content = "width = device-width">
-        <title>Cesar Wen</title>
 
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta ame="viewport" content="width = device-width">
+    <title>Cesar Wen</title>
 
-	</head>
-	<body>
-		<header>
-            <div class = "box">
-                <h1>Cesar Wen</h1>
-                
-                <nav>
-                    <ul>
-                        <li><a href = "#profile">Perfil</a></li>
-                        <li><a href = "#contato">Contato</a></li>
-                        <li><a href = "#up_to">O que tenho feito</a></li>
-                        <li><a href = "#competencias">Competências</a></li>
-                    </ul>
-                </nav>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Cesar Wen</h1>
+        <nav class="navbar">
+            <a href="#profile">Perfil</a>
+            <a href="#contato">Contato</a>
+            <a href="#up_to">O que tenho feito</a>
+            <a href="#competencias">Competências</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class = "section-name">Perfil</h2>
+        <div class="block_profile" id=profile>
+            <div class="profile-description">
+                <h3>
+                    Estudante de Engenharia
+                    Mecatrônica
+                </h3>
+                <img id="profile-picture" src="resourses/profile_picture.jpeg">
+                <h3>
+                    Escola Politécnica - USP<br>
+                    24 anos
+                </h3>
             </div>
-        </header>
-        
-        <main>
-            <div class = "block_profile" id = profile>
-                <h2>Perfil</h2>
-                <ul class = "profile_list">
-                    <li>
-                        <h3>
-                            Estudante de Engenharia 
-                            Mecatrônica                            
-                        </h3>
-                        <img id="profile-picture" src="resourses/profile_picture.jpeg">
-                        <h3>
-                            Escola Politécnica - USP<br>
-                            24 anos
-                        </h3>
-                    </li><li class = "quote">
-                        <p>
-                            “There are two ways to do something. The right way, and again.” - Autor Desconhecido
+            <div class="quote">
+                <p>
+                    “There are two ways to do something. The right way, and again.”
+                </p>
+                <p>
+                    Oi, bem vindo ao meu perfil!<br>
+                    Acredito que tudo devem ser desenvolvidos com qualidade.
+                    Contratempos podem ocorre e as vezes a resposta é melhor começar novamente. <br>
+                    Para ser responsável tenho uma agenda a qual tenho como base todas as minhas ações.<br>
+                    Abaixo você pode encontrar um pouco mais sobre mim e o que eu faço, espero que goste!
+                </p>
+            </div>
+        </div>
+
+        <div class="lower_blocks">
+            <div id=up_to>
+                <h2 class = "section-name">O que tenho feito</h2>
+
+                <div class=post>
+                    <div class=thumbnail>
+                        <img id="img" src="resourses/poli.jpg">
+                    </div>
+                    <div class=content>
+                        <h3 class=title>Escola Politécnica - Engenharia Mecatrônica</h3>
+                        <p class=paragraph>
+                            Um dos maiores desafios com o qual já me deparei, a formação em Engenharia Mecatrônica é
+                            não só
+                            desafiadora mas também instigante. Um conhecimento extremamente amplo, abrangindo 4
+                            grandes áreas
+                            mecânica, eletrônica, computação e controle me permite explorar todo o campo de
+                            conhecimento, desde
+                            a criação de pequenos robôs até o desenvolvimento de grandes softwares robustos.
                         </p>
-                        <p>
-                            Oi, bem vindo ao meu perfil!<br>
-                            Acredito que tudo devem ser desenvolvidos com qualidade. 
-                            Contratempos podem ocorre e as vezes a resposta é melhor começar novamente. <br>
-                            Para ser responsável tenho uma agenda a qual tenho como base todas as minhas ações.<br>
-                            Abaixo você pode encontrar um pouco mais sobre mim e o que eu faço, espero que goste!
-                        </p>
-                    </li>
-                </ul>
+                        <div class=endnote>
+                            <p>
+                                Skills: Engeinharia, contole, mecânica, eletrônica, computação
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class = "lower_blocks">
-                <div id = up_to>
-                    <h2>O que tenho feito</h2>
-                    
-                    <ul>
-
-                        <div class = post>
-                            <li class = image>
-                                <div class = thumbnail>
-                                    <img  id = "img" src="resourses/poli.jpg">
-                                </div>
-                            </li><li class = content>
-                                <h3>Escola Politécnica - Engenharia Mecatrônica</h3>
-                                <p> 
-                                    Um dos maiores desafios com o qual já me deparei, a formação em Engenharia Mecatrônica é não só
-                                    desafiadora mas também instigante. Um conhecimento extremamente amplo, abrangindo 4 grandes áreas
-                                    mecânica, eletrônica, computação e controle me permite explorar todo o campo de conhecimento, desde
-                                    a criação de pequenos robôs até o desenvolvimento de grandes softwares robustos.
-                                </p>
-                                <div class = endnote>
-                                    <p>
-                                        Skills: Engeinharia, contole, mecânica, eletrônica, computação 
-                                    </p>
-                                </div>
-                            </li>
-                        </div>
-
-                        <div class = post>
-                            <li class = image>
-                                <div class = thumbnail>
-                                    <img  id = "img" src="resourses/inogame.png">
-                                </div>
-                            </li><li class = content>
-                                <h3>Ambev Innovation Game II</h3>
-                                <p> 
-                                    Junto a mais dois colegas, procuramos solucionar o <a href = "https://ambev-innogame.tech/">desavio da Ambev</a> onde tentamos desenvolver a trilha "Canais de Venda" onde tentamos descobrir e desenvolver
-                                    um meio de realizar vendas de bebidas não alcoólicas no mercado.<br>
-                                    Tendo em vista o mundo em que vivemos, nos escondendo da pandemia, a trilha é ainda mais desafiadora indo de frente
-                                    com mercados tradicionais.
-                                </p>
-                                <div class = endnote>
-                                    <p>
-                                        Skills: desenvolvimento Ágil, trabalho em equipe, resolução de case
-                                    </p>
-                                </div>
-                            </li>
-                        </div>
-
-                        <div class = post>
-                            <li class = image>
-                                <div class = thumbnail>
-                                    <img  id = "img" src="resourses/startup.png">
-                                </div>
-                            </li><li class = content>
-                                <h3>Programama de Startups</h3>
-                                <p> 
-                                    Participação do programa de startup oferecido pelo Centro de Carreiras da Escola Politécnica da USP. <br>
-                                    Entre os benefícios de participar do programa tive a oportunidade de trabalhar com diversas pessoas as quais sou extremamente grato
-                                    ficamos na primeira posição no primeiro desafio (geração de leads) onde trabalhamos junto a ONG 
-                                    <a href = "https://www.portalsuperacao.org.br/"> Portal Superação</a> e tivemos o incrível desafio de desenvolver 
-                                    uma solução de agendamentos para a startup <a href = "https://www.livup.com.br/"> LivUp</a>
-                                </p>
-                                <div class = endnote>
-                                    <p>
-                                        Skills: Startup, desenvolvimento Ágil, trabalho em equipe, resolução de cases
-                                    </p>
-                                </div>
-                            </li>
-                        </div>
-
-                        <div class = post>
-                            <li class = image>
-                                <div class = thumbnail>
-                                    <img  id = "img" src="resourses/agendamento.png">
-                                </div>
-                            </li><li class = content>
-                                <h3>Solução de Agendamentos</h3>
-                                <p> 
-                                    Realização de um case de solução de agendamento. <br>
-                                    Construção de um prorótipo funcional contendo toda a lógica de agendamento de um pedido.
-                                    Desde o pedido ser gerado em uma plataforma virutal, com todos os processos para a produção até
-                                    o encaminhamento do chamado de um entregador.<br>
-                                    <a href = "https://github.com/cesarwen/livup_schedule_solution">Veja no Github aqui!</a>
-                                </p>
-                                <div class = endnote>
-                                    <p>
-                                        Plataformas: Python, Flask, mysql, google cloud, googleapis  
-                                    </p>
-                                </div>
-                            </li>
-                        </div>
-
-                        <div class = post>
-                            <li class = image>
-                                <div class = thumbnail>
-                                    <img  id = "img" src="resourses/ml.png">
-                                </div>
-                            </li><li class = content>
-                                <h3>Machine Learning</h3>
-                                <p> 
-                                    Uma das maiores tendências dos dias de hoje é o Machine Learning, 
-                                    junto a oportunidade de realizar multiplos cursos na plataforma Alura
-                                    tive o prazer de aprender sobre multiplos conceitos e aplicações da ciência!
-                                </p>
-                                <div class = endnote>
-                                    <p>
-                                        Skills: sklearn, keras, algoritimos não supervisionados, linguagem natural, exploração aleatória, hiperparâmetros, método "nearest neighbor", validação cruzada
-                                    </p>
-                                </div>
-                            </li>
-                        </div>
-
-                        <div class = post>
-                            <li class = image>
-                                <div class = thumbnail>
-                                    <img  id = "img" src="resourses/excel.png">
-                                </div>
-                            </li><li class = content>
-                                <h3>Excel/ VBA</h3>
-                                <p> 
-                                    Uma das mais versáteis e úteis ferramentas cotidianamente utilizada.<br>
-                                    Dominar tal ferramenta pode facilitar todos os tipos de trabalho já que hoje, tudo é baseado em dados. Junto a oportunidade de realizar diversos
-                                    cursos na plataforma Alura, tive o prazer de aprender com excel e sua linguagem de programação VBA.
-                                </p>
-                                <div class = endnote>
-                                    <p>
-                                        Skills: tabelas dinâmicas, análise de cenários, análise de dados, automatização com VBA
-                                    </p>
-                                </div>
-                            </li>
-                        </div>
-
-                    </ul>
-                </div>
-                
-                <div id = competencias>
-                    <h2>Competências</h2>
-                </div>
+            <div id=competencias>
+                <h2>Competências</h2>
             </div>
-        </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="papaparse.min.js"></script>
-        <script src = "main.js"></script>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
