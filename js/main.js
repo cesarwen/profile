@@ -44,15 +44,26 @@ function buildImage(resource){
 }
 
 function buildBody(title, content, note){
-    var path = "resourses/";
+
     var div = document.createElement("div");
-    div.classList.add("thumbnail");
+    div.classList.add("content");
 
-    var img = document.createElement("img");
-    img.id  = "img";
-    img.src = path+resource;
+    var h3 = document.createElement("h3");
+    h3.classList.add("title");
+    h3.textContent = title;
+    div.appendChild(h3);
 
-    div.appendChild(img);
+    var p1 = document.createElement("p");
+    p1.classList.add("paragraph");
+    p1.textContent = content;
+    div.appendChild(p1);
+
+    var div2 = document.createElement("div");
+    div2.classList.add("endnote");
+    var p2 = document.createElement("p");
+    p2.textContent = note;
+    div2.appendChild(p2);
+    div.appendChild(div2);
 
     return(div)
 }

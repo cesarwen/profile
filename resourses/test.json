@@ -1,8 +1,15 @@
 [
     {
-    "title": "Escola Politecnica",
+    "title": "Escola Politécnica",
     "nome_imagem": "poli.jpg",
     "content": "Um dos maiores desafios com o qual ja me deparei, a formacao em Engenharia Mecatonica ‚ nao so desafiadora mas tambem instigante. Um conhecimento extremamente amplo, abrangindo 4 grandes  reas mecanica, eletonica, computacao e controle me permite explorar todo o campo de conhecimento, desde a criacao de pequenos robos at‚ o desenvolvimento de grandes softwares robustos.",
     "endnote": "Skills:Engenharia,contole,mecanica,eletronica,computacao"
+    },
+    {
+    "title": "Ambev Innovation Game II",
+    "nome_imagem": "inogame.png",
+    "content": "Junto a mais dois colegas, procuramos solucionar o <a href = \"https://ambev-innogame.tech/\">desavio da Ambev</a> onde tentamos desenvolver a trilha "Canais de Venda" onde tentamos descobrir e desenvolver um meio de realizar vendas de bebidas não alcoólicas no mercado.<br> Tendo em vista o mundo em que vivemos, nos escondendo da pandemia, a trilha é ainda mais desafiadora indo de frente com mercados tradicionais.",
+    "endnote": "Skills: desenvolvimento Ágil, trabalho em equipe, resolução de case"
+
     }
 ]
