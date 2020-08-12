@@ -5,6 +5,7 @@ xhr.open("GET", "https://raw.githubusercontent.com/cesarwen/profile/master/resou
 xhr.addEventListener("load", function() {
     
     var resposta = xhr.responseText;
+    console.log(resposta)
     var posts = JSON.parse(resposta);
     posts.forEach(function(post) {
         var post_section = document.querySelector("#up_to");
