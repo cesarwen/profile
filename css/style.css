@@ -35,6 +35,13 @@ body{
         padding: 20px 0;
     }
     
+    .warning{
+        padding: 1em 2em;
+        margin : 2em 15%;
+        background: #DDDDDD;
+        border-radius: 5px;
+    }
+
     main{
         margin: 10px 5%;
     }
@@ -47,7 +54,6 @@ body{
         font-size: 22;
         text-decoration: none;
     }
-    
     
     #profile-picture {
         width: 40%;
