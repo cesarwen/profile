@@ -7,66 +7,44 @@
     <title>Cesar Wen</title>
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flexbox.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/positioning.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap">
 
 </head>
 
 <body>
-    <header>
-        <h1>Cesar Wen</h1>
-        <nav class="navbar">
-            <a href="#profile">Perfil</a>
-            <a href="#contato">Contato</a>
-            <a href="#up_to">O que tenho feito</a>
-            <a href="#competencias">Competências</a>
-        </nav>
-    </header>
+    <div class = "wrapper">
+        <section class = "sidebar">
+            <div class = "sideContents">
+                <div class = "profile_picture"> Block </div>
+                <nav class = "navbar">
+                    <div><i class="far fa-id-card"></i></i> Sobre</div>
+                    <div><i class="fas fa-desktop"></i> Skills</div>
+                    <div><i class="fas fa-project-diagram"></i> Projetos</div>
+                    <div><i class="far fa-address-book"></i> Contato</div>
+                </nav>
 
-    <div class = "warning">
-        <p>Site em construção</p> 
-        <a href="https://drive.google.com/file/d/14PeXGstPS-JmhAlxqXavJ4vMQHlDLVsY/view?usp=sharing">Acesse meu CV aqui!</a>
+                <ul class = "socialMedia">
+                    <li>
+                        <i class="fab fa-github fa-lg"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin-in fa-lg"></i>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <main>
+            
+        </main>
+        <!-- 
+        <script src="js/main.js"></script>
+        -->
     </div>
-    <main>
-        <h2 class = "section-name">Perfil</h2>
-        <div class="block_profile" id=profile>
-            <div class="profile-description">
-                <h3>
-                    Estudante de Engenharia
-                    Mecatrônica
-                </h3>
-                <img id="profile-picture" src="resourses/profile_picture.jpeg">
-                <h3>
-                    Escola Politécnica - USP<br>
-                    24 anos
-                </h3>
-            </div>
-            <div class="quote">
-                <p>
-                    “There are two ways to do something. The right way, and again.”
-                </p>
-                <p>
-                    Oi, bem vindo ao meu perfil!<br>
-                    Acredito que tudo devem ser desenvolvidos com qualidade.
-                    Contratempos podem ocorre e as vezes a resposta é melhor começar novamente. <br>
-                    Para ser responsável tenho uma agenda a qual tenho como base todas as minhas ações.<br>
-                    Abaixo você pode encontrar um pouco mais sobre mim e o que eu faço, espero que goste!
-                </p>
-            </div>
-        </div>
 
-        <div class="lower_blocks">
-            <div id=up_to>
-                <h2 class = "section-name">O que tenho feito</h2>
-            </div>
-
-            <div id=competencias>
-                <h2>Competências</h2>
-            </div>
-        </div>
-    </main>
-    <script src="js/main.js"></script>
+    
 
 </body>
 

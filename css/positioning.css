@@ -1,0 +1,75 @@
+/*
+Sidebar
+*/
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #0e5b72;
+    color: #f0f0f0;
+}
+
+.sideContents{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    padding: 1em 0;
+}
+
+.profile_picture{
+    margin-top: 5em;
+    padding: 0 1em;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5em;
+    font-size: 1.2em;
+}
+
+.navbar div{
+    display: block;
+    padding: 1.5em 1em;
+}
+
+.socialMedia{
+    margin: auto 0 1em 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar div:hover{
+    background: #49a2cc;
+}
+
+
+/*
+Main
+*/
+
+
+body {
+    background: #e9eff1;
+    }
+
+
+.wrapper main {
+    margin-left: 200px;
+}
+
+.warning{
+    display:flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    margin: 0 10em;
+    background: cornflowerblue;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+/*
+Section 1
+*/
